@@ -35,6 +35,25 @@ main {
     margin: 0.5em;
 }
 
+/* !!!NAV BAR!!! */
+
 nav {
-    max-width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5ebf92;
+    padding: 0.5em;
+    margin: 0.5em;
+    position: fixed;
+    bottom: 0;
+    border-radius: 5%;
+}
+
+nav img {
+    max-width: 75%;
+    padding: 0.5em;
+    border-radius: 10%;
+}
+
+.active_nav img {
+    background-color: #f2be22;
 }
