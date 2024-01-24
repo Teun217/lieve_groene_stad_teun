@@ -20,6 +20,8 @@ header {
     flex-direction: row;
     padding: 0.5em;
     background-color: #5ebf92;
+    position: fixed;
+    width: 100%;
 }
 
 header img {
@@ -43,6 +45,11 @@ header h1 {
 
 /* !!!MAIN!!! */
 
+body header {}
+
+main {
+    margin-top: 1em;
+}
 
 main div {
     padding: 0.5em;
