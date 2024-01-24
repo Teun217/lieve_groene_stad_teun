@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'storaregular';
-    src: url('stora-webfont.woff2') format('woff2'),
-        url('stora-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Stora';
+    src: url(fonts/Stora.ttf);
+}
 
+h1 {
+    font-family: 'Stora', 'Courier New', Courier, monospace
 }
 
 img {
@@ -95,6 +95,20 @@ main div div a {
     text-decoration: none;
     background-color: #f2be22;
     padding: 0.5em;
+}
+
+main .home_2,
+main .home_2 div {
+    background-color: #b3d4f0;
+}
+
+main .home_2 img {
+    background-color: #a65a49;
+}
+
+main .home_2 div {
+    padding: 0;
+    padding-right: 0.3em;
 }
 
 
