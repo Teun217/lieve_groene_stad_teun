@@ -12,9 +12,6 @@ p {
     font-size: small;
 }
 
-img {
-    max-width: 25%;
-}
 
 body {
     margin: 0%;
@@ -66,14 +63,25 @@ main p {
 
 }
 
-main img {
+
+
+main div img {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: #f27d16;
     padding: 0.5em;
     border-radius: 7.5%;
-    min-width: 10em;
-    min-height: 10em;
-    max-height: 5em;
+    min-width: none;
+    min-height: none;
+    max-width: 100%;
+    max-height: none;
+
+}
+
+.image_container {
+    max-width: 50%;
+    padding-left: 0;
 }
 
 main div {
@@ -114,10 +122,15 @@ main .home_2 div {
     padding-right: 0.3em;
 }
 
+
+
 .fill {
     padding: 3.5em;
     background-color: #b3d4f0;
 }
+
+
+
 
 
 /* !!!NAV BAR!!! */
