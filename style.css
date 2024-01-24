@@ -7,6 +7,10 @@
 
 }
 
+img {
+    max-width: 25%;
+}
+
 body {
     margin: 0%;
 }
@@ -19,21 +23,64 @@ header {
 }
 
 header img {
-    max-width: 10%;
+    max-width: 15%;
+}
+
+header h1 {
+    padding: 1em;
 }
 
 header h1 {
     margin: 0%;
     margin-left: 0.25em;
     font-family: storaregular;
-    padding: 0.1em;
+    padding: 0.25em;
 }
 
 
 
-main {
-    margin: 0.5em;
+
+
+/* !!!MAIN!!! */
+
+
+main div {
+    padding: 0.5em;
+    background-color: #c4ddf2;
+
 }
+
+main h2,
+main p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+main img {
+    background-color: #f27d16;
+    padding: 0.5em;
+    border-radius: 7.5%;
+    width: 10em;
+    height: 10em;
+}
+
+main div {
+    display: flex;
+}
+
+main div div {
+    display: flex;
+    flex-direction: column;
+}
+
+main a {
+    text-decoration: none;
+    background-color: #f2be22;
+    padding: 0.5em;
+
+
+}
+
 
 /* !!!NAV BAR!!! */
 
