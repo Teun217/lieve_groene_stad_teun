@@ -63,8 +63,6 @@ main p {
 
 main img {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: #f27d16;
     padding: 0.5em;
     border-radius: 7.5%;
@@ -89,12 +87,14 @@ main div div {
 main div div a {
     display: flex;
     justify-content: center;
+    margin: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
     border-radius: 0.3em;
     text-decoration: none;
     background-color: #f2be22;
     padding: 0.5em;
+    box-shadow: -3px 3px black;
 }
 
 main .home_2,
