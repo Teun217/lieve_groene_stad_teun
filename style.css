@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'storaregular';
+    src: url('stora-webfont.woff2') format('woff2'),
+        url('stora-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+    background-color: #5ebf92;
+}
+
+header img {
+    max-width: 10%;
+}
+
+header h1 {
+    margin: 0%;
+    margin-left: 0.25em;
+    font-family: storaregular;
+    padding: 0.1em;
+}
+
+nav {
+    max-width: 10%;
+    display: flex;
+}

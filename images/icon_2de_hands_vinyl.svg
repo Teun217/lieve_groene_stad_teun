@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="M43.16,33.27c-3.14,6.89-10.09,11.68-18.16,11.68-11.02,0-19.95-8.93-19.95-19.95"/>
+  <polyline class="cls-2" points="9.48 29.4 5.09 25 1.46 29.65"/>
+  <g>
+    <path class="cls-4" d="M6.84,16.73c3.14-6.89,10.09-11.68,18.16-11.68,11.02,0,19.95,8.93,19.95,19.95"/>
+    <polyline class="cls-2" points="40.52 20.6 44.91 25 48.54 20.35"/>
+  </g>
+  <g>
+    <path class="cls-3" d="M25.13,11.88c-7.31,0-13.24,5.93-13.24,13.24s5.93,13.24,13.24,13.24,13.24-5.93,13.24-13.24-5.93-13.24-13.24-13.24ZM25.13,31.99c-3.79,0-6.87-3.08-6.87-6.87s3.08-6.87,6.87-6.87,6.87,3.08,6.87,6.87-3.08,6.87-6.87,6.87Z"/>
+    <circle class="cls-1" cx="25.13" cy="25.12" r="1.33"/>
+  </g>
+</svg>
