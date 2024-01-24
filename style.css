@@ -4,7 +4,9 @@
 }
 
 h1 {
-    font-family: 'Stora', 'Courier New', Courier, monospace
+    font-family: 'Stora', 'Courier New', Courier, monospace;
+    color: #f2be22;
+    text-shadow: -2px 2px black;
 }
 
 p {
@@ -63,20 +65,15 @@ main p {
 
 }
 
-
-
 main div img {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     background-color: #f27d16;
     padding: 0.5em;
+    margin: auto 0;
     border-radius: 7.5%;
     min-width: none;
     min-height: none;
     max-width: 100%;
     max-height: none;
-
 }
 
 .image_container {
