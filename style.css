@@ -65,6 +65,9 @@ main p {
 
 }
 
+
+
+
 main div img {
     background-color: #f27d16;
     padding: 0.5em;
@@ -79,6 +82,11 @@ main div img {
 .image_container {
     max-width: 50%;
     padding-left: 0;
+}
+
+.text_container {
+    max-width: 50%;
+    margin: auto 0;
 }
 
 main div {
@@ -119,6 +127,10 @@ main .home_2 div {
     padding-right: 0.3em;
 }
 
+main>div {
+    padding: 1em 0.5em;
+}
+
 
 
 .fill {
@@ -126,9 +138,32 @@ main .home_2 div {
     background-color: #b3d4f0;
 }
 
+.carousel {
+    display: flex;
+    background-color: #b3d4f0;
+    flex-direction: column;
+    padding: 1em 0em;
+}
 
+.carousel h2 {
+    margin: 0 auto;
 
+}
 
+.carousel p {
+    margin: 0.5em;
+}
+
+.carousel img {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fill_vinyl {
+    padding: 3.5em;
+    background-color: #c4ddf2;
+}
 
 /* !!!NAV BAR!!! */
 
