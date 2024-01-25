@@ -133,7 +133,7 @@ main>div {
 
 
 
-.fill {
+.fill_donker {
     padding: 3.5em;
     background-color: #b3d4f0;
 }
@@ -150,20 +150,39 @@ main>div {
 
 }
 
-.carousel p {
-    margin: 0.5em;
-}
-
 .carousel img {
     background-color: transparent;
-    margin: 1em 0;
-    padding-left: 0;
-    padding-right: 0;
-    scale: 110%;
+    padding: 0;
+    margin: 0.5em 0;
 }
 
-.fill_vinyl {
+.carousel p {
+    margin: 0 1em;
+}
+
+.fill_licht {
     padding: 3.5em;
+    background-color: #c4ddf2;
+}
+
+main iframe {
+    margin: 1em auto;
+    background-color: #a65a49;
+    padding: 0.5em;
+    border-radius: 5%;
+}
+
+.container_locatie {
+    display: flex;
+    flex-direction: column;
+    background-color: #b3d4f0;
+}
+
+.container_locatie h2 {
+    margin: 0 auto;
+}
+
+.city_records_1 {
     background-color: #c4ddf2;
 }
 
