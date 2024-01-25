@@ -2,7 +2,8 @@
     font-family: Stora;
     src: url(fonts/stora/Stora.ttf);
 
-
+    font-family: "Cooper Black";
+    src: url(fonts/Cooper_Black_Regular/Cooper_Black_Regular.ttf);
 }
 
 h1 {
@@ -11,9 +12,12 @@ h1 {
     text-shadow: -2px 2px black;
 }
 
-p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+h2 {
+    font-family: "Cooper black";
+}
+
+a {
+    font-family: "Cooper black";
 }
 
 
