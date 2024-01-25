@@ -1,10 +1,12 @@
 @font-face {
-    font-family: 'Stora';
-    src: url(fonts/Stora.ttf);
+    font-family: Stora;
+    src: url(fonts/stora/Stora.ttf);
+
+
 }
 
 h1 {
-    font-family: 'Stora', 'Courier New', Courier, monospace;
+    font-family: Stora, 'Courier New', Courier, monospace;
     color: #f2be22;
     text-shadow: -2px 2px black;
 }
@@ -40,7 +42,6 @@ header h1 {
 header h1 {
     margin: 0%;
     margin-left: 0.25em;
-    font-family: storaregular;
     padding: 0.25em;
 }
 
