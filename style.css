@@ -9,6 +9,8 @@
     src: url(fonts/Consola/CONSOLA.TTF);
 }
 
+
+
 h1 {
     font-family: Stora, 'Courier New', Courier, monospace;
     color: #f2be22;
@@ -24,12 +26,14 @@ a {
 }
 
 p {
-    font-family: Consola;
+    font-family: Consola, "Courier new";
 }
 
 body {
     margin: 0%;
 }
+
+/* !!!HEADER!!! */
 
 header {
     z-index: 1000;
@@ -55,7 +59,19 @@ header h1 {
     padding: 0.25em;
 }
 
+#spin {
+    animation: spin 15s linear infinite;
+}
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 
 
