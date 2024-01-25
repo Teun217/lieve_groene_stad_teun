@@ -4,6 +4,9 @@
 
     font-family: "Cooper Black";
     src: url(fonts/Cooper_Black_Regular/Cooper_Black_Regular.ttf);
+
+    font-family: Consola;
+    src: url(fonts/Consola/CONSOLA.TTF);
 }
 
 h1 {
@@ -20,6 +23,9 @@ a {
     font-family: "Cooper black";
 }
 
+p {
+    font-family: Consola;
+}
 
 body {
     margin: 0%;
@@ -113,9 +119,14 @@ main div div a {
     margin: 0 1.5em;
     border-radius: 0.3em;
     text-decoration: none;
+    list-style: none;
     background-color: #f2be22;
     padding: 0.5em;
     box-shadow: -3px 3px black;
+}
+
+a:visited {
+    color: black;
 }
 
 main .home_2,
