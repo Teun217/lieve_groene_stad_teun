@@ -156,8 +156,10 @@ main>div {
 
 .carousel img {
     background-color: transparent;
+    margin: 1em 0;
     padding-left: 0;
     padding-right: 0;
+    scale: 110%;
 }
 
 .fill_vinyl {
