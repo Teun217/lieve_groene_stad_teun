@@ -9,58 +9,44 @@
     src: url(fonts/Consola/CONSOLA.TTF);
 }
 
-
-
-h1 {
-    font-family: Stora, 'Courier New', Courier, monospace;
-    color: #f2be22;
-    text-shadow: -2px 2px black;
-    -webkit-text-stroke: 0.1px black
-}
-
-h2 {
-    font-family: "Cooper black";
-}
-
-a {
-    font-family: "Cooper black";
-}
-
-p {
-    font-family: Consola, "Courier new";
-}
-
 body {
-    margin: 0%;
+    margin: 0;
+
+}
+
+img {
+    max-width: 50%;
 }
 
 /* !!!HEADER!!! */
 
-header {
-    z-index: 1000;
-    display: flex;
-    flex-direction: row;
-    padding: 0.5em;
-    background-color: #5ebf92;
-    position: fixed;
-    width: 100%;
-}
-
 header img {
-    max-width: 18%;
+    max-width: 15%;
+    animation-name: logo_draaien;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 header h1 {
-    padding: 0.25em;
-    margin: auto 0;
-    margin-left: 0.25em;
+    margin: auto 0 auto 0.5em;
+    font-family: Stora, 'Courier New', Courier, monospace;
+    color: #f2be22;
+    text-shadow: -2px 2px black;
+    -webkit-text-stroke: 0.1px black;
+    font-size: 2em;
 }
 
-#spin {
-    animation: spin 15s linear infinite;
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #5ebf92;
+    padding: 0.5em;
+    min-width: 100%;
+    position: fixed;
 }
 
-@keyframes spin {
+@keyframes logo_draaien {
     0% {
         transform: rotate(0deg);
     }
@@ -70,163 +56,140 @@ header h1 {
     }
 }
 
-
-
 /* !!!MAIN!!! */
 
 main {
-    transform: translate(0em, 4.5em);
-    z-index: 1;
+    padding-top: 4.5em;
 }
 
-main h2 {
-    margin-top: 0;
-    margin-bottom: 0.3em;
+h2 {
+    font-family: "Cooper Black";
+    margin: 0;
 }
 
-main p {
-    margin-top: 0;
-
-}
-
-
-
-
-main div img {
-    background-color: #f27d16;
-    padding: 0.5em;
-    margin: auto 0;
-    border-radius: 7.5%;
-    max-width: 100%;
-}
-
-.image_container {
-    max-width: 50%;
-    padding-left: 0;
-}
-
-.text_container {
-    max-width: 50%;
-    margin: auto 0;
-}
-
-main div {
-    padding: 0.5em;
-    background-color: #c4ddf2;
+section {
+    padding: 1em 0;
     display: flex;
+    flex-direction: row;
+    max-width: 100%;
+
 }
 
-main div div {
+section p {
+    font-family: consolas;
+    margin: 0.5em 0;
+}
+
+section article {
     display: flex;
     flex-direction: column;
-    padding: 0;
-    padding-left: 0.5em;
+    justify-content: center;
+    padding: 0 0.5em;
 }
 
-main div div a {
-    display: flex;
-    justify-content: center;
-    margin: 0 1.5em;
+article a {
+    background-color: #f2be22;
+    font-family: cooper black;
+    margin: 0 auto;
+    padding: 0.5em 1em;
     border-radius: 0.3em;
+    border: black;
+
     text-decoration: none;
     list-style: none;
-    background-color: #f2be22;
-    padding: 0.5em;
     box-shadow: -3px 3px black;
     border-style: solid;
     border-color: black;
 }
 
-a:visited {
-    color: black;
+section img {
+    margin: auto 0.5em;
+    height: 100%;
+    width: 40%;
+    background-color: #f27d16;
+    padding: 0.5em;
+    border-radius: 0.5em;
 }
 
-main .home_2,
-main .home_2 div {
-    background-color: #b3d4f0;
+.home_1 {
+    background-color: #c4ddf2;
 }
 
-main .home_2 img {
+.home_2 {
+    background-color: #a3cdf0;
+}
+
+.home_2 img {
     background-color: #a65a49;
-}
-
-main .home_2 div {
-    padding: 0;
-    padding-right: 0.3em;
-}
-
-main>div {
-    padding: 1em 0.5em;
-}
-
-
-
-.fill_donker {
-    padding: 3.5em;
-    background-color: #b3d4f0;
 }
 
 .carousel {
     display: flex;
-    background-color: #b3d4f0;
     flex-direction: column;
-    padding: 1em 0em;
+    background-color: #a3cdf0;
 }
 
-.carousel h2 {
+.carousel h2,
+.carousel img,
+.carousel p {
     margin: 0 auto;
-
 }
 
 .carousel img {
-    background-color: transparent;
+    margin: 0;
     padding: 0;
-    margin: 0.5em 0;
+    background-color: transparent;
+    min-width: 100%;
+    margin: 1em 0;
 }
 
 .carousel p {
     margin: 0 1em;
 }
 
-.fill_licht {
-    padding: 3.5em;
-    background-color: #c4ddf2;
-}
-
-main iframe {
-    margin: 1em auto;
-    background-color: #a65a49;
-    padding: 0.5em;
-    border-radius: 5%;
-}
-
 .container_locatie {
-    display: flex;
     flex-direction: column;
-    background-color: #b3d4f0;
+    background-color: #a3cdf0;
 }
 
-.container_locatie h2 {
+.container_locatie h2,
+.container_locatie iframe,
+.container_locatie p {
     margin: 0 auto;
 }
 
-.city_records_1 {
-    background-color: #c4ddf2;
+.container_locatie iframe {
+    background-color: #a65a49;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin: 1em auto;
 }
 
-/* !!!NAV BAR!!! */
+.container_locatie p {
+    margin: 0 1em;
+}
+
+.fill_donker {
+    background-color: #a3cdf0;
+    padding: 3em 0;
+}
+
+.fill_licht {
+    background-color: #c4ddf2;
+    padding: 3em 0;
+}
+
+/* !!!NAV!!! */
 
 nav {
     display: flex;
     justify-content: space-evenly;
     background-color: #5ebf92;
-    padding: 0.5em;
-    margin: 0.5em;
     margin-bottom: 0;
     position: fixed;
     bottom: 0;
-    border-radius: 3% 3% 0 0;
-    max-width: 100%;
+    margin: 0 1em;
+    border-radius: 5% 5% 0 0;
 }
 
 nav img {
